@@ -1,0 +1,46 @@
+
+ 
+    body {
+        padding: 20px;
+        margin: 20px;
+        background-color: rgb(232, 244, 255);
+
+    } 
+    h1{
+        color: rgb(0, 0, 0);
+        text-align: center;
+    }
+    h2{
+        color: rgb(94, 128, 232);
+        border-bottom: 2px solid grey;
+        padding-bottom: 5px;
+    }
+
+    p{
+        line-height: 1.5;
+        text-align: justify;
+    }
+
+    ul, ol{
+        line-height: 1.5;
+    }
+
+    a{
+        color: rgb(94, 128, 232);
+        text-decoration: none;
+    }
+
+    a:hover{
+        text-decoration: underline;
+    }
+
+    .my-photo {
+    display: block;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 5px solid rgb(50, 49, 49);
+    border-radius: 50%;
+    margin: 20px auto;
+    box-shadow: 0 0 15px rgb(9, 10, 10);
+}
